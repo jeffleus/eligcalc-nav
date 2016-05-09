@@ -1,0 +1,9 @@
+<ion-view view-title="Album">
+  <ion-content>
+    <ion-list>
+      <ion-item ng-repeat="song in songs" ui-sref="app.song({songid:{{$index}}})">
+        {{song.Title}}
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

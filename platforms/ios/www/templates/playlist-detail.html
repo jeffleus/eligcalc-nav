@@ -1,0 +1,9 @@
+<ion-view view-title="Playlist">
+  <ion-content>
+	<h1>Playlist Tabbed</h1>
+	<ion-list>
+		<ion-item ng-repeat="a in albums" href="#/app/album/detail">{{a.title}}</ion-item>
+		<ion-item>{{deets}}</ion-item>
+	</ion-list>
+  </ion-content>
+</ion-view>
